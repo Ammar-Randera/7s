@@ -344,3 +344,19 @@ footer {
   padding: 2rem;
 }
 
+/* MOBILE NAVBAR FIX */
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 0.8rem 1.2rem;
+    justify-content: center; /* center logo */
+  }
+
+  .navbar ul {
+    display: none; /* hide menu items */
+  }
+
+}
+
+
+
