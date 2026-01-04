@@ -358,5 +358,21 @@ footer {
 
 }
 
+/* FORCE MOBILE NAVBAR FIX */
+@media (max-width: 768px) {
+
+  .navbar {
+    justify-content: center !important;
+    padding: 0.8rem 1rem !important;
+  }
+
+  .navbar ul {
+    display: none !important;
+  }
+
+}
+
+
+
 
 
